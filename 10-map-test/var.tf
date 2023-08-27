@@ -20,7 +20,7 @@ variable "vpc" {
   }
 }
 
-outputs "all_subnets"
+output "all_subnets"
 {
   value = var.vpc["main"]["subnets"]
 }
